@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+  }
+
+  
+    .atas p {
+        text-align: center;
+        box-shadow: 10 10 10 10; 
+        background-color: burlywood;   
+        border-radius: 30px;
+        border: 2px;
+        margin: 4rem auto;
+        max-width: 100px;
+        }
+.box {
+    text-align: center;
+  }
+
+#particle-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background: linear-gradient(#212121, #0c1a32);
+}
+.joycon {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+#result {
+    background: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  }
+  
+
+  
+  .tombolkiri, .tombolkanan {
+    background: rgba(255, 237, 237, 0.726);
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tombolkiri {
+    background-color: rgb(198, 225, 252);
+  }
+  
+  .middle-buttons {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ebebeb;
+    box-shadow: 1px 2px 4px #9b9b;
+    cursor: pointer;
+    font-size: 17px;
+    margin: 5px;
+    border: 0;
+    border-radius: 10px;
+  }
+  
+  .tombolkanan button {
+    background-color: #ebb3bb;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+
+  .skill {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 20px;
+    left: 45%;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: right;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 30%;
+  }
+
+
+
+  
+
+  
+  
