@@ -45,32 +45,40 @@
     <!--  -->
     <!-- kamu boleh menambahkan sprite di samping textscreen yang sudah ada @POINPLUS -->
     <!-- di ujung kanan bawah, tambahkan informasi NIM, nama, dan link Github @UTAMA -->
-    <div class="box">
-        <img src="build/ai-generated-abstract-colorful-waveforms-on-dark-background-photo.jpg" alt="background">
-        <div id="particle-js"></div>
-        <div class="atas"><p id="right">right</p></div>  
-        <div class="joycon">
-          <div class="tombolkiri ">
-            <button onclick="show('up')">up</button>
-            <div class="middle-buttons">
-              <button onclick="show('left')">left</button>
-              <button onclick="show('down')">down</button>
-              <button onclick="show('right')">right</button>
-            </div>
-          </div>
-          <div class="tombolkanan">
-            <button onclick="show('B')">B</button>
-            <button onclick="show('A')">A</button>
-          </div>
+      <div class="box">
+    <!-- Background dengan bubble -->
+    <div id="particle-js">
+      <div class="bubble-container"></div>
+    </div>
+
+    <!-- Teks tampilan -->
+    <div class="atas">
+      <p id="right">Tekan tombol</p>
+    </div>
+
+    <!-- Joycon -->
+    <div class="joycon">
+      <div class="tombolkiri">
+        <button onclick="show('Atas')">up</button>
+        <div class="middle-buttons">
+          <button onclick="show('Kiri')">left</button>
+          <button onclick="show('Bawah')">down</button>
+          <button onclick="show('Kanan')">right</button>
         </div>
       </div>
-      <footer class="skill">
-    
-            <p>My Skill</p>
-            <a href><i class=""></i></a>
-          
-        </div>
-       
-      <script src="script.js"></script>
+      <div class="tombolkanan">
+        <button onclick="show('B')">B</button>
+        <button onclick="show('A')">A</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Identitas di kanan bawah -->
+  <div class="identitas">
+    NIM: 123456789 | Nama: Elizabeth Marianna | 
+    <a href="https://github.com/ElizabethMarianna" target="_blank">GitHub</a>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
