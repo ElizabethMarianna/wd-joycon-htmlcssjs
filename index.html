@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JoyCo</title>
+    <title>Keypad Elizabeth Marianna Chen</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <!-- buat komponen yang menggambarkan controller @MUTAMA -->
     <!--    [^]                -->
     <!-- [<][v][>]      [B][A] -->
@@ -43,5 +45,18 @@
     <!--  -->
     <!-- kamu boleh menambahkan sprite di samping textscreen yang sudah ada @POINPLUS -->
     <!-- di ujung kanan bawah, tambahkan informasi NIM, nama, dan link Github @UTAMA -->
+    <div class="box">
+        <div id="particle-js"></div>
+        <div id="action">Tap The Button</div>
+        <div class="joycon">
+          <div class="tombol kiri ">
+            <button onclick="show('up')">up</button>
+            <div class="middle-buttons">
+              <button onclick="show('left')">left</button>
+              <button onclick="show('down')">down</button>
+              <button onclick="show('right')">right</button>
+            </div>
+          </div>
+          
 </body>
 </html>
