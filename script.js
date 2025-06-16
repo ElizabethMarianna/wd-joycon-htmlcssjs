@@ -24,3 +24,16 @@ function createBubble() {
 
 setInterval(createBubble, 300);
 
+function show(text) {
+  const display = document.getElementById("right");
+  display.innerText = text;
+
+  // Tambahkan kelas animasi dan hapus setelah selesai
+  display.classList.add("animate");
+  setTimeout(() => {
+    display.classList.remove("animate");
+  }, 300);
+
+  document.getElementById("sfx").play();
+}
+
